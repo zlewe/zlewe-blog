@@ -1,7 +1,7 @@
 ---
 title: James Ewe
 role: Undergraduate Student
-avatar_filename: avatar_hu521e0d27416e6a415cf35a10875d38f8_187317_270x270_fill_q90_lanczos_center.jpg
+avatar_filename: https://zlewe.me/author/zu-lin-ewe/avatar_hu521e0d27416e6a415cf35a10875d38f8_187317_270x270_fill_q90_lanczos_center.jpg
 bio: My research interests include robotics, autonomous vehicle, SLAM, machine
   learning and computer vision.
 social:
