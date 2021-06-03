@@ -250,6 +250,7 @@ plugins_js  = []
 [cms]
   branch = "main"
   local_backend = false
+  publish_mode = "editorial_workflow"
 
 ############################
 ## Icon Pack Extensions
