@@ -8,5 +8,5 @@ main:
     url: /
     weight: 10
   - name: About
-    url: 'https://zlewe.me'
+    url: 'https://zlewe.github.io'
     weight: 20
