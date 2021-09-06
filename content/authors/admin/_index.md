@@ -40,7 +40,7 @@ bio: My research interests include robotics, autonomous vehicle, SLAM, machine
 social:
 - icon: envelope
   icon_pack: fas
-  link: https://zlewe.me/#contact
+  link: https://zlewe.github.io/#contact
 # For a direct email link, use "mailto:test@example.org".
 
 - icon: github
