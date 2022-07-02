@@ -18,8 +18,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
-    twitter: 'wowchemy'
+    description: ''
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -31,8 +31,8 @@ marketing:
 
 header:
   navbar:
-    enable: false
-    align: r
+    enable: true
+    align: c
     show_logo: false
     show_language: false
     show_day_night: true
@@ -62,12 +62,12 @@ features:
     extra_languages:
       - r
       - latex
-  math:
+  math: 
     enable: false
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/<username>/<repository>'
+    url: 'https://github.com/zlewe/zlewe-blog'
     content_dir: content
     branch: main
   avatar:
@@ -96,5 +96,6 @@ extensions:
   cms:
     branch: main
     local_backend: false
+    publish_mode: editorial_workflow
   academicons:
     enable: false
