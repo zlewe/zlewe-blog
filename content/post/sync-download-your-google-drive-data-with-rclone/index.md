@@ -2,7 +2,7 @@
 title: "rclone: Download your Google Drive data easily"
 subtitle: "rclone: 如何輕易下載Google Drive資料"
 date: 2022-07-06T08:28:18.904Z
-draft: true
+draft: false
 featured: false
 image:
   filename: featured
