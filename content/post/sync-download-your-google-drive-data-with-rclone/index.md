@@ -31,8 +31,14 @@ For lite users, Google Takeout ([https://takeout.google.com/](https://takeout.go
 ## Table of contents
 1. What can rclone do?
 2. Setting up rclone:
-    * Advance setup: using DriveAPI
+    * Advance setup: create your own Google App ClientID
 3. Downloading your data: 
-    * copy
-    * sync
-4. Advanced
+    * *lsd*     - list directories
+    * *copy*
+    * *sync*
+    * *ncdu*    - interactive disk usage
+4. Advanced usage:
+    * *dedupe*
+    * *mount*
+    * *sync* between 2 cloud drives
+
