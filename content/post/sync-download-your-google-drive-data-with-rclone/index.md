@@ -11,11 +11,11 @@ tags:
 categories:
   - Guide
 image:
-  filename: https://rclone.org/img/logo_on_light__horizontal_color.svg
+  filename: logo_on_light__horizontal_color.svg
   focal_point: Smart
   preview_only: false
 ---
-Starting this July, Google is going to change their storage policy for educational organizations, where many of these organizations are starting to limit their users in terms of individual storage space.
+Starting this July, Google is going to change their storage policy for educational organisations, and many of these organisations are starting to limit their users in terms of individual storage space.
 
 > **Google Workspace for Education 縮減儲存空間**
 >
@@ -27,19 +27,37 @@ Starting this July, Google is going to change their storage policy for education
 I supposed many are looking to download/sync their data to prevent data losses. But manual download from the browser is going to be so tedious.
 
 Luckily, there are tools available to help: 
-For lite users, using Google Takeout ([https://takeout.google.com/](https://takeout.google.com/)) would be quick and easy. But for a heavy user like me (few TB across multiple accounts), there is a much better tool -**rclone**- which is more powerful and flexible.
+For lite users, using Google Takeout ([https://takeout.google.com/](https://takeout.google.com/)) would be quick and easy. But for a heavy user like me (a few TB across multiple accounts), there is a much better tool -**rclone**- which is more powerful and flexible.
+
+**rclone** is a feature-rich cloud storage manager. It supports many cloud storage providers such as (Google Drive, Dropbox, OneDrive, Nextcloud and more).
+
 
 ## Table of contents
-1. What can rclone do?
-2. Setting up rclone:
+1. Setting up rclone:
+    * Adding a remote cloud
     * Advance setup: create your own Google App ClientID
-3. Downloading your data: 
-    * *lsd*     - list directories
+2. Downloading your data: 
+    * *ls/lsd*  - list object and directories
     * *ncdu*    - interactive disk usage
     * *copy*
     * *sync*
-4. Advanced usage:
+3. Advanced usage:
     * *dedupe*
     * *mount*
     * *sync* between 2 cloud drives
+---
+## Setting up rclone:
+### Installation
+For Ubuntu, simply:
+    
+    ```bash
+    sudo apt install rclone
+    ```
+> For Windows, just download the exe from <https://rclone.org/downloads/> and use
+> it in CMD. (You need to be in the rclone folder to use *rclone* command).
 
+### Adding a remote cloud
+
+    ```bash
+    rclone config
+    ```
