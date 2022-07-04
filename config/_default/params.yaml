@@ -60,6 +60,7 @@ features:
   syntax_highlighter:
     enable: true
     extra_languages:
+      - bash
       - r
       - latex
   math: 
