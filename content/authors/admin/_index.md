@@ -10,7 +10,7 @@ role: Master’s Student
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: 🇲🇾
 
 # Organizations/Affiliations
 organizations:
@@ -41,25 +41,25 @@ bio: My research interests include robotics, autonomous vehicle, SLAM, machine l
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
+  - icon: globe
+    icon_pack: far
+    link: https://zlewe.ml
   - icon: envelope
     icon_pack: fas
     link: 'about/#contact' # For a direct email link, use "mailto:test@example.org".
-  - icon: twitter
+  - icon: github
     icon_pack: fab
-    link: https://twitter.com/wowchemy
+    link: https://github.com/zlewe
   # - icon: instagram
   #   icon_pack: fab
   #   link: https://instagram.com/geocushen
-# Uncomment below for Github link
-#- icon: github
-#  icon_pack: fab
-#  link: https://github.com/gcushen
+
 
 # # Link to a PDF of your resume/CV from the About widget.
 # # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+  - icon: cv
+    icon_pack: ai
+    link: https://zlewe.ml/files/CV_Sept21.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
